@@ -1,0 +1,10 @@
+from numpy import*
+r= int(input("Enter row value :"))
+c=int(input("Enter column value :"))
+str=input("Enter matrix elements :")
+x=reshape(matrix(str),(r,c))
+print("The original matrix is :")
+print(x)
+print("The transpose matrix is-> ")
+y=x.transpose()
+print(y)
